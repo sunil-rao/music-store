@@ -1,0 +1,27 @@
+{
+  "name": "musicstore",
+  "version": "1.0.0",
+  "description": "A music store to manage my music",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunil-rao/music-store.git"
+  },
+  "keywords": [
+    "Music",
+    "Store",
+    "Itunes"
+  ],
+  "author": "Sunil Rao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunil-rao/music-store/issues"
+  },
+  "homepage": "https://github.com/sunil-rao/music-store#readme",
+  "devDependencies": {
+    "bower": "^1.7.9"
+  }
+}

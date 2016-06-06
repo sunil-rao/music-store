@@ -1,0 +1,27 @@
+{
+  "name": "musicstore",
+  "description": "A music store to manage my music",
+  "main": "index.js",
+  "authors": [
+    "Sunil Rao"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Music",
+    "Store",
+    "Itunes"
+  ],
+  "homepage": "https://github.com/sunil-rao/music-store",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.6",
+    "bootstrap": "^3.3.6"
+  }
+}

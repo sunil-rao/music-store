@@ -10,6 +10,10 @@ app.set('view engine', 'ejs');
 app.use('/static/css', express.static('./bower_components/bootstrap/dist/css'));
 app.use('/static/js', express.static('./bower_components/bootstrap/dist/js'));
 app.use('/music', musicRouter);
+app.get('/', function(req, res){
+	res.redirect('/music');
+});
+
 
 app.listen(5000, function(){
 console.log(__dirname);

@@ -6,9 +6,7 @@ app.set('views', ['server/views']);
 app.set('view engine', 'ejs');
 
 
-
-app.use('/static/css', express.static('./bower_components/bootstrap/dist/css'));
-app.use('/static/js', express.static('./bower_components/bootstrap/dist/js'));
+app.use('/bower_components', express.static('./bower_components'));
 app.use('/music', musicRouter);
 app.get('/', function(req, res){
 	res.redirect('/music');

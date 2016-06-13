@@ -20,10 +20,6 @@ gulp.task('start-server', function(){
 
 gulp.task('wire-bower-dep', function(){
 
-	// console.log(config.index);
-	// console.log(config.wiredepOptions);
-	// console.log(config.views);
-
 	return gulp.src(config.index)
 		.pipe(wiredep(config.wiredepOptions))
 		.pipe(gulp.dest(config.views));
